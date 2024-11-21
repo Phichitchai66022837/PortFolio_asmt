@@ -1,101 +1,37 @@
-import Image from "next/image";
+import React from 'react'
 
-export default function Home() {
+
+function page() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+    <>
+      <div className='bg-[url("../app/pic/background.jpg")] w-screen h-screen object-cover bg-no-repeat bg-center bg-cover overflow-hidden'>
+        <nav className='flex justify-between pt-2 pr-10 pl-10 items-center h-[10%] animate-elementFade'>
+          <div className='flex items-center'>
+            <div className='size-7 cursor-pointer'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill='white' className='hover:fill-gray-400 duration-[0.5s]'><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg></div>
+            <span className='ml-5 font-bold text-[20px]'>My portfolio</span>
+          </div>
+          <div>
+            <ul className='flex font-semibold'>
+              <li className='ml-7 cursor-pointer hover:text-gray-400 duration-[0.5s]'><a href="#">HOME</a></li>
+              <li className='ml-7 cursor-pointer hover:text-gray-400 duration-[0.5s]'><a href="#">ABOUT</a></li>
+              <li className='ml-7 cursor-pointer hover:text-gray-400 duration-[0.5s]'><a href="#">PORTFOLIO</a></li>
+              <li className='ml-7 cursor-pointer hover:text-gray-400 duration-[0.5s]'><a href="#">CONTACT</a></li>
+            </ul>
+          </div>
+        </nav>
+        <main className='flex h-[90%] items-center'>
+          <div className='flex pl-36 pb-24 flex-col w-[50%]'>
+            <span className='font-semibold text-[18px] animate-translate'>Hi! I'm Phichitchai Puttharrewong</span>
+            <span className='font-bold text-[105px] ml-10 animate-blinking'>UX/UI</span>
+            <a href="#" className='font-bold w-max h-[50px] flex justify-center items-center rounded-[40px] pl-[50px] pr-[50px] bg-blue-500 text-[20px] hover:bg-blue-700 duration-[0.3s]'>CONTACT</a>
+          </div>
+          <div className='w-[50%] flex justify-center items-center'>
+            <div className='border-2 rounded-xl p-5'><div className='bg-[url("../app/pic/Mypic.jpg")] object-cover bg-cover bg-no-repeat w-[350px] h-[550px] rounded-md'></div></div>
+          </div>
+        </main>
+      </div>
+    </>
+  )
 }
+
+export default page
