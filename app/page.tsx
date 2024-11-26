@@ -21,7 +21,7 @@ function page() {
         </nav>
         <main className='flex h-[90%] items-center'>
           <div className='flex pl-36 pb-24 flex-col w-[50%]'>
-            <span className='font-semibold text-[18px] animate-translate'>Hi! I {"'"} am Phichitchai Puttharrewong</span>
+            <span className='font-semibold text-[18px] animate-translate'>Hi! I am Phichitchai Puttharrewong</span>
             <span className='font-bold text-[105px] ml-10 animate-blinking'>UX/UI</span>
             <a href="#" className='font-bold w-max h-[50px] flex justify-center items-center rounded-[40px] pl-[50px] pr-[50px] bg-blue-500 text-[20px] hover:bg-blue-700 duration-[0.3s]'>CONTACT</a>
           </div>
