@@ -1,5 +1,5 @@
 import React from 'react'
-import Mypic from '../public/background.jpg'
+
 
 
 function page() {
