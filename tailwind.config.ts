@@ -29,7 +29,6 @@ export default {
 
       },
       animation: {
-        // fadeIn: "fadeIn 0.5s ease-in-out"
         elementFade : 'elementFade 0.9s ease-in',
         translate : 'translate 0.9s ease-in',
         blinking : 'blinking 3s ease-in infinite'
