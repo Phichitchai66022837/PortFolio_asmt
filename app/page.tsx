@@ -25,7 +25,7 @@ function page() {
             <a href="#" className='font-bold w-max h-[50px] flex justify-center items-center rounded-[40px] pl-[50px] pr-[50px] bg-blue-500 text-[20px] hover:bg-blue-700 duration-[0.3s] animate-elementFade'>CONTACT</a>
           </div>
           <div className='w-[50%] flex justify-center items-center'>
-            <div className='border-2 rounded-xl p-5'><div className='bg-[url("./pic/riden.jpg")] object-cover bg-cover bg-center bg-no-repeat w-[350px] h-[550px] rounded-md animate-elementFade duration-1000 delay-[1000ms]' style={{ animation: 'elementFade 3s ease-in' }}></div></div>
+            <div className='border-2 rounded-xl p-5 overflow-hidden'><div className='bg-[url("./pic/riden.jpg")] object-cover bg-cover bg-center bg-no-repeat w-[350px] h-[550px] rounded-md animate-blinkingImg duration-1000 delay-[1000ms] hover:scale-150 hover:duration-100 hover:delay-100'></div></div>
           </div>
         </main>
       </div>
