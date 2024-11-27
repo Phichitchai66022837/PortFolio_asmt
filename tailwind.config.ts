@@ -25,13 +25,18 @@ export default {
           '0%' : {opacity : '0'},
           '50%':{ opacity : '1' },
           '100%' : { opacity : '0' }
+        },blinkingImg: {
+          '0%': { backgroundImage: "url('./pic/riden.jpg')" },
+          '50%': { backgroundImage: "url('./pic/riden2.jpg')" },
+          '100%': { backgroundImage: "url('./pic/riden.jpg')" },
         }
 
       },
       animation: {
         elementFade : 'elementFade 0.9s ease-in',
         translate : 'translate 0.9s ease-in',
-        blinking : 'blinking 3s ease-in infinite'
+        blinking : 'blinking 3s ease-in infinite',
+        blinkingImg:'blinkingImg 10s ease-in infinite'
       },
     },
   },
