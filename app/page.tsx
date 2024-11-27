@@ -54,7 +54,7 @@ function page() {
             </article>
           </section>
           <section className='w-[50%] flex justify-center items-center p-3'>
-            <img className='w-[500px] h-[300px] rounded-sm border-2' src="/Tamroi.png" alt="" />
+            {/* <img className='w-[500px] h-[300px] rounded-sm border-2' src="/Tamroi.png" alt="" /> */}
           </section>
         </div>
       </main>
