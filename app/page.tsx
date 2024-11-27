@@ -48,7 +48,7 @@ function page() {
       <main className='mt-16 flex justify-center items-center mb-24' id='project'>
         <div className='flex justify-center items-center w-[80%]  backdrop-opacity-50 backdrop-brightness-[0.1] rounded-lg'>
           <section className='w-[50%] flex flex-col justify-center p-6'>
-            <span className='font-bold text-[40px]'>PROJECT NAME : <span className='text-blue-400 ml-4'>TAMROI</span></span>
+            <span className='font-bold text-[40px]'>PROJECT NAME &#58;<span className='text-blue-400 ml-4'>TAMROI</span></span>
             <article className='flex flex-col pl-7 '>
               <span className='text-blue-300 ml-4 font-bold text-[20px]'>Welcome to our online plant store, where you can find a wide variety of healthy plants for your home or garden. Whether you're a beginner or an expert, we offer everything from low-maintenance succulents to vibrant flowers. Browse our collection and have your favorite plants delivered right to your doorstep. Bring nature home with ease!</span>
             </article>
