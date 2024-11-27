@@ -50,11 +50,11 @@ function page() {
           <section className='w-[50%] flex flex-col justify-center p-6'>
             <span className='font-bold text-[40px]'>PROJECT NAME &#58;<span className='text-blue-400 ml-4'>TAMROI</span></span>
             <article className='flex flex-col pl-7 '>
-              <span className='text-blue-300 ml-4 font-bold text-[20px]'>asasd</span>
+              <span className='text-blue-300 ml-4 font-bold text-[20px]'>Welcome to our online plant store where you can find a wide variety of healthy plants for your home or garden</span>
             </article>
           </section>
           <section className='w-[50%] flex justify-center items-center p-3'>
-            {/* <img className='w-[500px] h-[300px] rounded-sm border-2' src="/Tamroi.png" alt="" /> */}
+            <img className='w-[500px] h-[300px] rounded-sm border-2' src="/Tamroi.png" alt="" />
           </section>
         </div>
       </main>
