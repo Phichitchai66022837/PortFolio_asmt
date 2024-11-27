@@ -50,7 +50,7 @@ function page() {
           <section className='w-[50%] flex flex-col justify-center p-6'>
             <span className='font-bold text-[40px]'>PROJECT NAME &#58;<span className='text-blue-400 ml-4'>TAMROI</span></span>
             <article className='flex flex-col pl-7 '>
-              <span className='text-blue-300 ml-4 font-bold text-[20px]'>Welcome to our online plant store&#44;	 where you can find a wide variety of healthy plants for your home or garden. Whether you&#39;re a beginner or an expert&#44;	 we offer everything from low&#45;maintenance succulents to vibrant flowers. Browse our collection and have your favorite plants delivered right to your doorstep. Bring nature home with ease!</span>
+              <span className='text-blue-300 ml-4 font-bold text-[20px]'>asasd</span>
             </article>
           </section>
           <section className='w-[50%] flex justify-center items-center p-3'>
