@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 function page() {
   return (
     <div className='bg-[url("../public/background.jpg")] w-screen h-screen object-cover bg-no-repeat bg-center bg-cover overflow-x-hidden relative scroll-smooth'>
@@ -43,6 +45,8 @@ function page() {
           </article>
         </section>
       </main>
+
+
     </div>
   )
 }
